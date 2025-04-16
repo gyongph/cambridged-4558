@@ -29,8 +29,6 @@ type Exam = {
   name: string;
   heading: string;
   activities: Array<Activity>;
-  user_answers: Array<Answer>;
-  setUserAnswers: React.Dispatch<React.SetStateAction<Array<Answer>>>;
 };
 
 type Results = Array<
